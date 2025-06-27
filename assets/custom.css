@@ -1,0 +1,10 @@
+/* Show all months in Dash dcc.Dropdown if screen is big enough */
+.Select-menu-outer, .VirtualizedSelectOption {
+    max-height: none !important;
+}
+.dash-dropdown .Select-menu-outer {
+    max-height: none !important;
+}
+.Select-menu-outer {
+    max-height: none !important;
+}

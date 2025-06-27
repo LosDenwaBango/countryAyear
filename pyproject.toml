@@ -1,0 +1,26 @@
+[project]
+name = "countrygen-dash"
+version = "0.1.0"
+description = "A Dash app to visualize and manage timelines of country visits and residence periods."
+authors = [ { name = "C Tallentire", email = "mynameisntlee@gmail.com" } ]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+dash = "^2.16.1"
+dash-bootstrap-components = "^1.5.0"
+dash-mantine-components = "^0.12.1"
+plotly = "^5.20.0"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+pillow = "^10.3.0"
+requests = "^2.31.0"
+pycountry = "^23.12.11"
+pycountry-convert = "^0.7.2"
+country_converter = "^0.8.0"
+streamlit = "^1.20.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
